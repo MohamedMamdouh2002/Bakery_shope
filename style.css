@@ -22,7 +22,7 @@ nav{
 }
 .btn1{
     color: #fff;
-    background-color: sienna;
+    background-color: rgb(231, 156, 121);
 
 }.btn:hover{
 background-color: #fff;
@@ -175,6 +175,14 @@ RGB(53, 51, 48)
 .end .lic3:hover{
     background-color: cornflowerblue;
 }
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
 
-
+}
+.row {
+    --bs-gutter-x: -4.5rem;
+    
+}
 
